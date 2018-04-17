@@ -11,7 +11,7 @@
 std::vector<std::string> get_all_files_names_within_folder(std::string folder)
 {
 	std::vector<std::string> names;
-	std::string search_path = folder + "/*.*";
+	std::string search_path = folder + "/*.png";
 	WIN32_FIND_DATA fd;
 	HANDLE hFind = ::FindFirstFile(search_path.c_str(), &fd);
 	if (hFind != INVALID_HANDLE_VALUE) 
