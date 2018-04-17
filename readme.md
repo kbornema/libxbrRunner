@@ -11,7 +11,6 @@ This program does NOT require any third party libraries or headers (they should 
 
 The program is supposed to be used as a command line program. 
 I included some .bat files to convert all given *.png files of the given input folder to a given output folder (windows only).
-NOTE: currently it will try to convert ALL files of the folder, regardless if they are actual .png files
 
 Most of the source code is a combination of different sources (see below). I added main.cpp and a CMakeLists.txt.
 
