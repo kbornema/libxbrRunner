@@ -18,6 +18,9 @@ SET( files_SRCS
 	"lodepng.cpp"
 	"lodepng.h"
 	"main.cpp"
+	"export.h"
+	"export.cpp"
 )
 
-ADD_EXECUTABLE( libxbrRunner "main.cpp" ${files_SRCS} )
+#ADD_EXECUTABLE( libxbrRunner "main.cpp" ${files_SRCS} )
+ADD_LIBRARY(libxbrRunner SHARED ${files_SRCS} )
