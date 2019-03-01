@@ -22,5 +22,5 @@ SET( files_SRCS
 	"export.cpp"
 )
 
-#ADD_EXECUTABLE( libxbrRunner "main.cpp" ${files_SRCS} )
-ADD_LIBRARY(libxbrRunner SHARED ${files_SRCS} )
+ADD_EXECUTABLE( libxbrRunner "main.cpp" ${files_SRCS} )
+#ADD_LIBRARY(libxbrRunner SHARED ${files_SRCS} )

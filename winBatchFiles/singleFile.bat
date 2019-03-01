@@ -1,0 +1,1 @@
+libxbrRunner.exe file test.png test.png xbr2x

@@ -1,1 +1,1 @@
-libxbrRunner.exe input/ output/ hq3x
+libxbrRunner.exe folder input/ output/ hq3x

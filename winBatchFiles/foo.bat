@@ -1,1 +1,0 @@
-libxbrRunner.exe player.png player_xbr.png xbr2x

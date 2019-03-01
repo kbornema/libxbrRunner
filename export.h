@@ -6,5 +6,5 @@
 
 extern "C"
 {
-	DLL_EXPORT_API int ScaleSingleImage(char* inputPath, char* outputPath, char* algorithm);
+	DLL_EXPORT_API int ScaleSingleImage(const char* inputPath, const char* outputPath, const char* algorithm);
 }

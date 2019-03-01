@@ -3,7 +3,7 @@
 #include "filters.h"
 #include <iostream>
 
-int ScaleSingleImage(char* inputPath, char* outputPath, char* algorithm)
+int ScaleSingleImage(const char* inputPath, const char* outputPath, const char* algorithm)
 {
 	int scaleType, scaleFactor;
 
